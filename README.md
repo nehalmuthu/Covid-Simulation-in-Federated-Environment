@@ -1,6 +1,6 @@
 # Covid-Simulation-in-Federated-Environment
 
-The draft of the paper can be found under Paperfolder in the repo. [https://github.com/nehalmuthu/Covid-Simulation-in-Federated-Environment/blob/master/Paper/draft.pdf](here)
+The draft of the paper can be found under Paperfolder in the repo. [here](https://github.com/nehalmuthu/Covid-Simulation-in-Federated-Environment/blob/master/Paper/draft.pdf) 
 
 ## Abstract 
 The prediction of infection rate of COVID-19 disease is worthwhile if the mobility of patients in different regions is taken into account. Also,due to the patients’ privacy concerns, the data is still scarce. To address
