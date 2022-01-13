@@ -12,7 +12,5 @@ The prediction of infection rate of COVID-19 disease is worthwhile if the mobili
 - Bed availabilty can be found [here](https://healthdata.gov/browse?q=bed)
 
 
-![alt text](output/Figure5.1.PNG)
-![alt text](output/Figure5.2.PNG)
-![alt text](output/Figure5.3.PNG)
-![alt text](output/Figure5.4.PNG)
+![alt text](output/Figure5.1.PNG)![alt text](output/Figure5.2.PNG)
+![alt text](output/Figure5.3.PNG) ![alt text](output/Figure5.4.PNG)
