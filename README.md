@@ -66,10 +66,22 @@ To instantly check the results, use the datasets under the data folder and start
 
 
 
-
-
 ![alt text](output/Figure5.1.PNG)
 ![alt text](output/Figure5.2.PNG)
 ![alt text](output/Figure5.3.PNG)
 ![alt text](output/Figure5.4.PNG)
+
+
+
+
+
+![alt text](output/Figure6.1.PNG)
+![alt text](output/Figure6.2.PNG)
+![alt text](output/Figure6.3.PNG)
+![alt text](output/Figure6.4.PNG)
+
+
+
+
+![alt text](output/Figure7.PNG)
 
