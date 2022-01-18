@@ -17,40 +17,38 @@ In stage two of the experiment, we emulate the pandemic using the classic SEIR m
 All the files can be run from your google drive in collab
 To instantly check the results, use the datasets under the data folder and start following from point 4) below
 
-1) processingData.ipynb
-Combine mobility and covid cases data.
-Convert cumulative cases to day-wise case count.
-The processed file "US-state-processed-data.csv" is stored under the data folder. 
+1. processingData.ipynb
+- Combine mobility and covid cases data.
+- Convert cumulative cases to day-wise case count.
+- The processed file "US-state-processed-data.csv" is stored under the data folder. 
 
-2)createTrainingData.ipynb
-constructs training data for the fmtl model to get the weight vectors
-We use Matlab to run the fmtl model and to train the model. 
-This code converts the processed data to a .mat file, which becomes the training data.
-Furthermore, we try to make the data homogeneous.
-We get the train and test data from here.
+2. createTrainingData.ipynb
+- constructs training data for the fmtl model to get the weight vectors
+- We use Matlab to run the fmtl model and to train the model. 
+- This code converts the processed data to a .mat file, which becomes the training data.
+- Furthermore, we try to make the data homogeneous.
+- We get the train and test data from here.
 
-3)
-To train the model and get the weight vector, we use code from the [repo](https://github.com/gingsmith/fmtl)
-This repo is the implementation of the paper [FMTL](https://arxiv.org/abs/1705.10467)
+3. training model in Matlab environment 
+- To train the model and get the weight vector, we use code from the [repo](https://github.com/gingsmith/fmtl)
+- This repo is the implementation of the paper [FMTL](https://arxiv.org/abs/1705.10467)
+- be sure to change 
+  - store the .mat file under the data folder in this fmtl  repo
+  - the data load info under both "model driver" and "optimization drive" code in the given fmtl code 
+  - Also fix opts.obj='R'; % Regression
 
-be sure to change 
-3.1)store the .mat file under the data folder in this fmtl  repo
-3.2)the data load info under both "model driver" and "optimization drive" code in the given fmtl code 
-3.3)Also fix opts.obj='R'; % Regression
+- train the model and get weight vector 
 
-train the model and get weight vector 
+4. prediction.ipyb
+- Utilizing the above weight vector, we can compare the actual test data with our forecasting. 
 
-4)prediction.ipyb
-Utilizing the above weight vector, we can compare the actual test data with our forecasting. 
+5. baselines.ipynb
+- To compare the prediction power of this fmtl model, we have compared it with four other models namely, RNN, linear regression, decision tree, and random forest.
+- Finally, we compared the error metrics between them.
 
-5)baselines.ipynb
-To compare the prediction power of this fmtl model, we have compared it with four other models. 
-RNN, linear regression, decision tree, and random forest.
-Finally, we compared the error metrics between them.
-
-6)EpidemicModelSimulations.ipynb
-We also simulated the covid scenario using the SEIR model. 
-Also, we found the threshold for infection spread above, which states medicare facilities will face bed shortage.
+6. EpidemicModelSimulations.ipynb
+- We also simulated the covid scenario using the SEIR model. 
+- Also, we found the threshold for infection spread above, which states medicare facilities will face bed shortage.
 
 
 
