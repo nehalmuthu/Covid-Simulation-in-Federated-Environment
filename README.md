@@ -56,24 +56,28 @@ To instantly check the results, use the datasets under the data folder and start
 
 
 ## Results
-## State-wise Infection forecasts
-<img align="left" width="200" height="200" src="output/Figure4.1.PNG">
-<img align="right" width="200" height="200" src="output/Figure4.2.PNG">
-<img align="left" width="200" height="200" src="output/Figure4.3.PNG">
-<img align="right" width="200" height="200" src="output/Figure4.4.PNG">
+### State-wise Infection forecasts
+<p>
+  <img src="output/Figure4.1.PNG">
+  <img src="output/Figure4.2.PNG">
+  <img src="output/Figure4.3.PNG">
+  <img src="output/Figure4.4.PNG">
+</p>
 
-## SEIR simulation results
-![alt text](output/Figure5.1.PNG)
-![alt text](output/Figure5.2.PNG)
-![alt text](output/Figure5.3.PNG)
-![alt text](output/Figure5.4.PNG)
+### SEIR simulation results
+<p>
+<img  src="output/Figure5.1.PNG">
+<img   src="output/Figure5.2.PNG">
+<img   src="output/Figure5.3.PNG">
+<img  src="output/Figure5.4.PNG">
+</p>
 
-## Bed Availablity constraint for Louisiana
+### Bed Availablity constraint for Louisiana
 <p align="center">
   <img src="output/Figure6.PNG">
 </p>
 
-## Baseline Comparisons
+### Baseline Comparisons
 <p align="center">
   <img src="output/Figure7.PNG">
 </p>
