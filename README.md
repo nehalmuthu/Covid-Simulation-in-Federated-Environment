@@ -58,8 +58,10 @@ To instantly check the results, use the datasets under the data folder and start
 ## Results
 ### State-wise Infection forecasts
 
-![alt-text-1](output/Figure4.1.PNG "title-1") ![alt-text-2](output/Figure4.2.PNG "title-2")
-![alt-text-3](output/Figure4.3.PNG "title-3") ![alt-text-4](output/Figure4.4.PNG "title-4")
+
+![](output/Figure4.1.PNG)  |  ![](output/Figure4.1.PNG) 
+:-------------------------:|:-------------------------:
+![](output/Figure4.3.PNG)  |  ![](output/Figure4.4.PNG)
 
 ### SEIR simulation results
 <p>
