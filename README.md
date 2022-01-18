@@ -7,6 +7,9 @@ We aim to simulate the covid scenario by considering data privacy. This experime
 
 In stage two of the experiment, we emulate the pandemic using the classic SEIR model to analyze the rise and extinction of the pandemic. The infection number obtained in stage 1 is used as the β(Probability of disease transmission per contact * times the number of contacts per unit time)  for the SEIR model. Also, the states' susceptible, exposed, infected, and recovered ratios are compared. Finally, we try to put a threshold on the infection rate and discuss the time until vaccination must be continued to prevent regions from running out of bed availability at medical care centers. For this, we took the instance of Louisiana state and analyzed the scenario.
 
+## Flow Diagram
+![alt text](output/flow.PNG)
+
 ## Data
 - Population estimates of states in US can be found [here](https://www.census.gov/programs-surveys/popest/technical-documentation/research/evaluation-estimates/2020-evaluation-estimates/2010s-totals-national.html)
 - Mobility Data can be found [here](https://www.google.com/covid19/mobility/index.html?hl=en)
@@ -52,24 +55,22 @@ To instantly check the results, use the datasets under the data folder and start
 
 
 
+## Results
+## State-wise Infection forecasts
+![alt text](output/Figure4.1.PNG)
+![alt text](output/Figure4.2.PNG)
+![alt text](output/Figure4.3.PNG)
+![alt text](output/Figure4.4.PNG)
 
-
-![alt text](output/flow.PNG)
-
-
-
+## SEIR simulation results
 ![alt text](output/Figure5.1.PNG)
 ![alt text](output/Figure5.2.PNG)
 ![alt text](output/Figure5.3.PNG)
 ![alt text](output/Figure5.4.PNG)
 
+## Bed Availablity constraint for Louisiana
+![alt text](output/Figure6.PNG)
 
-
-![alt text](output/Figure6.1.PNG)
-![alt text](output/Figure6.2.PNG)
-![alt text](output/Figure6.3.PNG)
-![alt text](output/Figure6.4.PNG)
-
-
+## Baseline Comparisons
 ![alt text](output/Figure7.PNG)
 
