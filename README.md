@@ -70,9 +70,10 @@ To instantly check the results, use the datasets under the data folder and start
 
 ## Bed Availablity constraint for Louisiana
 <p align="center">
-  <img width="460" height="300" src="output/Figure6.PNG">
+  <img src="output/Figure6.PNG">
 </p>
 
 ## Baseline Comparisons
-![alt text](output/Figure7.PNG)
-
+<p align="center">
+  <img src="output/Figure7.PNG">
+</p>
