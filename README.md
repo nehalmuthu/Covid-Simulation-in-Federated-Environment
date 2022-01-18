@@ -15,7 +15,7 @@ In stage two of the experiment, we emulate the pandemic using the classic SEIR m
 
 ## Run the experiment
 All the files can be run from your google drive in collab
-To instantly check the results, use the datasets under the data folder and start following from point 4) below
+To instantly check the results, use the datasets under the data folder and start following from point 4. below
 
 1. **processingData.ipynb**
    - Combine mobility and covid cases data.
@@ -54,15 +54,7 @@ To instantly check the results, use the datasets under the data folder and start
 
 
 
-
-
-
-
-
-
-
-
-
+![alt text](output/flow.PNG)
 
 
 
@@ -73,14 +65,10 @@ To instantly check the results, use the datasets under the data folder and start
 
 
 
-
-
 ![alt text](output/Figure6.1.PNG)
 ![alt text](output/Figure6.2.PNG)
 ![alt text](output/Figure6.3.PNG)
 ![alt text](output/Figure6.4.PNG)
-
-
 
 
 ![alt text](output/Figure7.PNG)
