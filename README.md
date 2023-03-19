@@ -1,6 +1,6 @@
 # Covid-Simulation-in-Federated-Environment
 
-The [draft](https://github.com/nehalmuthu/Covid-Simulation-in-Federated-Environment/blob/master/Paper/draft.pdf) of the paper can be found under Paper folder in the repo. 
+The paper can be found @ [link](https://www.aimspress.com/article/doi/10.3934/mbe.2022466). 
 
 ## Experiment 
 We aim to simulate the covid scenario by considering data privacy. This experiment is conducted in two stages. In stage one, we predict the US state-wise infection numbers in a federated learning setup. The infection number is modeled as a function of the categories in the mobility data using the multitask federated learning approach. Even though the cases in each state are observed independently, it is only logical that there will be some relatedness in the covid trend between the states. Therefore using multitask learning would be a good fit.
